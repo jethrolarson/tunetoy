@@ -1,34 +1,33 @@
 Getting Started
 ===============
 
-GIT
----
-[gitx](http://gitx.frim.nl)
+[Coffee-script][1]
+------------------
 
-CSS
----
+You said you wanted to go deep, well here we go:
 
-    sudo gem install compass
-    cd tunetoy
-    compass watch
+1. [Install node][2]
 
-JS
---
+2. [Install npm][3]
 
-You said you wanted to go deep
+3. `sudo npm install coffee-script`
 
-* [Install node](http://nodejs.org/#download)
+4. Run the watch script
 
-* [Install npm](https://github.com/isaacs/npm) (node package manager) - It's basically ruby gems for node. Not required, but makes things easier.
+  `coffee -o static/js/ --watch --compile coffee/*.coffee`
 
-* [Install coffeescript](https://github.com/jashkenas/coffee-script/) - [Docs](http://jashkenas.github.com/coffee-script/)
+5. [tmbundle](5)
 
-    sudo npm install coffee-script
-    
-* Run the watch script
+[Stylus][4]
+-----------
 
-    coffee -o static/js/ --watch --compile coffee/*.coffee
+1. `sudo npm install stylus`
+2. `stylus --watch stylus/ --out static/css`
+3. [tmbundle][6]
 
-Python
-------
-The structure of the project was copied from todoosie
+[1]: http://jashkenas.github.com/coffee-script/
+[2]: http://nodejs.org/#download
+[3]: https://github.com/isaacs/npm
+[4]: http://learnboost.github.com/stylus/
+[5]: https://github.com/jashkenas/coffee-script-tmbundle
+[6]: https://github.com/LearnBoost/stylus/tree/master/editors

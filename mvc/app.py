@@ -3,13 +3,14 @@ import cgi, wsgiref.handlers, logging#,random, yaml
 #from google.appengine.api import users, mail
 #from datetime import datetime
 from google.appengine.ext import webapp
-import  models, util, controllers
+from mvc import  models, util, controllers
 
 application = webapp.WSGIApplication([
     ('/',controllers.index),
     ('.*',util.Error404)
   ],
-  debug=True)
+  debug=True
+)
 
 def main():
   wsgiref.handlers.CGIHandler().run(application)

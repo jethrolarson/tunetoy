@@ -1,0 +1,43 @@
+small= 12px
+normal= 14px
+big= 18px
+bigger= 24px
+fc= #aaa
+color= #cef
+p= 8px
+m= 8px
+bc= hsl(214, 40%, 85%)
+bgc= #222222
+
+default-box-shadow-color= rgba(0, 0, 0, 0.5)
+default-transition-duration= 0.2s
+
+box-sizing(model)
+  box-sizing model
+  -moz-box-sizing model
+  -ms-box-sizing model
+  -webkit-box-sizing model
+
+columns(n)
+  clearfix
+  colWidth 100% / n
+  &>*
+    box-sizing(border-box)
+    width colWidth
+    float left
+
+text-shadow(color, x=1, y=1, z=1)
+  text-shadow: color x y z
+
+text-inset()
+  text-shadow(rgba(255, 255, 255, 0.8))
+
+text-inset-light()
+  text-shadow(rgba(0, 0, 0, 0.35), 0, -1px)
+
+hilight()
+  background-color hsl(60, 95%, 95%)
+  transition-property(background-color)
+  transition-duration(0.4s)
+  transition-timing-function(ease-out)
+

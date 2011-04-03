@@ -64,11 +64,11 @@ button
   box-sizing(border-box)
   border 1px solid black
   //TODO make mixin - webkit gradients are a pita
-  background-image: unquote('-webkit-gradient(linear, left top, left bottom, 
-      from(hsl(124, 0%, 50%)), 
-      to(hsl(135, 0%, 12%)), 
-      color-stop(4%,hsl(124, 0%, 20%))
-    )')
+  background-image: unquote('-webkit-gradient(linear, left top, left bottom,
+      color-stop(0, hsl(124, 0%, 50%)),
+      color-stop(4%, hsl(124, 0%, 20%)),
+      color-stop(100%, hsl(135, 0%, 12%))
+    )');
   cursor pointer
   color white !important
   text-decoration none

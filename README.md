@@ -25,6 +25,13 @@ You said you wanted to go deep, well here we go:
 2. `stylus --watch stylus/ --out static/css`
 3. [tmbundle][6]
 
+Notes
+=====
+
+* Not currently targeting FF.
+
+
+
 [1]: http://jashkenas.github.com/coffee-script/
 [2]: http://nodejs.org/#download
 [3]: https://github.com/isaacs/npm

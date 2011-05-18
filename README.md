@@ -39,7 +39,7 @@ Notes
 =====
 
 * Not currently targeting FF.
-
+* Jethro has node 5.0pre installed
 
 
 [1]: http://jashkenas.github.com/coffee-script/

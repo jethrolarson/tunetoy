@@ -1,3 +1,13 @@
+Copyright Jethro Larson  Brad Boswell
+
+Objectives
+==========
+Port Mario Paint to the web with social features.
+
+Specs
+======
+
+
 Getting Started
 ===============
 

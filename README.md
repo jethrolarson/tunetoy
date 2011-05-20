@@ -24,7 +24,7 @@ You said you wanted to go deep, well here we go:
 
 4. Run the watch script
 
-  `coffee -o static/js/ --watch --compile coffee/*.coffee`
+  `coffee -o static/js/ --watch coffee/*.coffee`
 
 5. [tmbundle](5)
 
